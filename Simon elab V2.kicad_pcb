@@ -47,10 +47,10 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -69,16 +69,16 @@
 			(psnegative no)
 			(psa4output no)
 			(plotreference yes)
-			(plotvalue yes)
+			(plotvalue no)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber V1.0/")
 		)
 	)
 	(net 0 "")
@@ -3527,7 +3527,7 @@
 		)
 		(fp_arc
 			(start 3.5 3.25)
-			(mid 3.80926 3.345922)
+			(mid 3.809266 3.345926)
 			(end 4.01 3.6)
 			(stroke
 				(width 0.05)
@@ -5096,7 +5096,7 @@
 			)
 		)
 		(property "Value" "TP_VCC"
-			(at 0 -2.25 270)
+			(at 0 -2.25 -90)
 			(layer "B.Fab")
 			(uuid "eae589fb-ed10-4cf8-8439-7e808de74ea7")
 			(effects
@@ -5174,7 +5174,7 @@
 			(uuid "e303ba58-55f3-4b48-986c-6a0182f8d23f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.15 270)
+			(at 0 2.15 -90)
 			(layer "B.Fab")
 			(uuid "90abca42-403e-4dd9-b92f-2cc5a853e123")
 			(effects
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Value" "TP_MISO"
-			(at 0 -2.25 270)
+			(at 0 -2.25 -90)
 			(layer "B.Fab")
 			(uuid "0567d07b-acca-4f80-8761-074cccb332d5")
 			(effects
@@ -5292,7 +5292,7 @@
 			(uuid "bc9d91f7-48fa-474d-9d43-404370fdcd25")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.15 270)
+			(at 0 2.15 -90)
 			(layer "B.Fab")
 			(uuid "546e242a-2ee3-4978-ac10-22e8f6812a55")
 			(effects
@@ -5332,7 +5332,7 @@
 			)
 		)
 		(property "Value" "TP_GND"
-			(at 0 -2.25 270)
+			(at 0 -2.25 -90)
 			(layer "B.Fab")
 			(uuid "58cb6700-69be-46b5-a598-4355258591f7")
 			(effects
@@ -5410,7 +5410,7 @@
 			(uuid "c3a5d99a-f144-4299-9f48-c83899fbbc05")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.15 270)
+			(at 0 2.15 -90)
 			(layer "B.Fab")
 			(uuid "60519b0e-de22-4821-b67d-7a266ffcc8c7")
 			(effects
@@ -5450,7 +5450,7 @@
 			)
 		)
 		(property "Value" "TP_MOSI"
-			(at 0 -2.25 270)
+			(at 0 -2.25 -90)
 			(layer "B.Fab")
 			(uuid "2463b28a-5e8e-4281-aed6-ae6ca23c7038")
 			(effects
@@ -5528,7 +5528,7 @@
 			(uuid "406be46c-2fae-4f4b-b6d8-f5aaca5158fb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.15 270)
+			(at 0 2.15 -90)
 			(layer "B.Fab")
 			(uuid "93a38814-e135-4ca9-b1a6-7abf5d62c8b4")
 			(effects
@@ -5568,7 +5568,7 @@
 			)
 		)
 		(property "Value" "TP_CLOCK"
-			(at 0 -2.25 270)
+			(at 0 -2.25 -90)
 			(layer "B.Fab")
 			(uuid "219d0ba3-7505-4fd7-9f1a-365d6ef12655")
 			(effects
@@ -5646,7 +5646,7 @@
 			(uuid "92929d25-ea95-46a0-b180-23341d35b72e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.15 270)
+			(at 0 2.15 -90)
 			(layer "B.Fab")
 			(uuid "d9edf3be-0707-4cf0-bb79-d0a15a763079")
 			(effects
@@ -5686,7 +5686,7 @@
 			)
 		)
 		(property "Value" "TP_RST"
-			(at 0 -2.25 270)
+			(at 0 -2.25 -90)
 			(layer "B.Fab")
 			(uuid "013a2e36-7514-448b-a3e4-b844ee74df91")
 			(effects
@@ -5764,7 +5764,7 @@
 			(uuid "9d17a0f3-8aba-4626-9441-0fb34444db21")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.15 270)
+			(at 0 2.15 -90)
 			(layer "B.Fab")
 			(uuid "71673728-77ad-44f3-b119-2dafc0a687cf")
 			(effects
@@ -5796,7 +5796,7 @@
 		(layer "Edge.Cuts")
 		(uuid "bbbaa2b3-c01d-4ffa-b2a7-a9012596e8d2")
 	)
-	(gr_text "Simon\nelectroLAB - UMONS\nYann Jacquet 2024_05_03"
+	(gr_text "Simon V1.0\nelectroLAB - UMONS\nYann Jacquet 2024_05_03"
 		(at 134 124.5 0)
 		(layer "B.SilkS")
 		(uuid "dd48f6b1-2cb1-46b3-9fab-3a42c5c54edf")
